@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="iTunes"
+	id="com.solid-jellyfish.iTunes"
+	author="seph li"
+	summary="iTunes for iOS using the Media Player framework."
+	core="false"
+	>
+	<supports os="ios" />
+	<source>src/iTunes.mm</source>
+	<source>src/Track.mm</source>
+	<source>src/TrackConverter.mm</source>
+	<headerPattern>src/*.h</headerPattern>
+	<platform os="ios">
+		<framework sdk="true">MediaPlayer.framework</framework>
+	</platform>
+	<includePath>src</includePath>	
+</block>
+</cinder>
