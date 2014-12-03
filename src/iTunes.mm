@@ -1,6 +1,20 @@
 /*
  ==============================================================================
+
+ This project is based on notlion's cinder ipod library.
+ https://github.com/notlion/CinderIPod
+ Thanks a lot for the code to start.
  
+ This library added several new features for the new iOS versions, including
+ 1) check is a sound track is local file or not (cloud file that doesn't have asset url);
+ 2) asset url access;
+ 3) copy track file to current app's domain;
+ 4) init with ipod player so that music playback won't be stopped after the app goes sleep.
+ 
+ This file is part of the iOS iTunes library for Cinder
+ Copyright 2014-12 by seph li.
+ 
+
  This file is part of the iOS iTunes library for Cinder
  Copyright 2014-05 by seph li.
  
